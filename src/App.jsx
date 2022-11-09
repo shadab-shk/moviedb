@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import Home from "./pages/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,7 +11,7 @@ import Search from "./pages/Search";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter basename="/moviedb/">
         <Header />
         <Routes>
           <Route index element={<Home />}></Route>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/search/movie" index element={<Search />}></Route>
           <Route path="/*" index element={<h1>Error Page</h1>}></Route>
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
