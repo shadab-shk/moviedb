@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://shadab-shk.github.io/moviedb/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir ./docs",
-    "preview": "vite preview"
+    "build": "vite build --outDir ./docs --base /moviedb/",
+    "preview": "vite preview --outDir ./docs"
   },
   "dependencies": {
     "bootstrap": "^5.2.2",
