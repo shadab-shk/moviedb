@@ -1,0 +1,60 @@
+.poster{
+    background-color: black;
+
+}
+.posterImage{
+    height: 500px;
+}
+.posterImage > img{
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 150%;
+}
+.posterImage_overLay{
+    position: absolute;
+    padding: 5rem;
+  bottom: 0px;
+  height: 70%;
+  display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0),rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}
+.posterImage_overLay:hover{
+    opacity: 1;
+}
+.posterImage_title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.posterImage_runtime{
+    justify-content: space-between;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+.posterImage_description{
+    display: flex;
+    font-size: 20px;
+    color: whitesmoke;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+}

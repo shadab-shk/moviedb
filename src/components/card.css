@@ -1,0 +1,243 @@
+/* /* .cards_img{
+    border-radius: 2rem;
+    height: 25rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.cards_title{
+    position: absoulte;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+.cards_runtime{
+    font-size: .75rem;
+    margin-bottom: 0.25rem;
+}
+.cards_desciption{
+    font-style: italic;
+    font-size: .75rem;
+    margin-bottom: 0.25rem;
+} */
+/* *{
+    font-family: 'Poppins', sans-serif;
+     -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+} */
+/* img {
+      -webkit-user-drag: none;
+      -moz-user-drag: none;
+      -o-user-drag: none;
+      user-drag: none;
+}
+img {
+    pointer-events: none;
+}
+.movie_card{
+    padding: 0 !important;
+    width: 21rem;
+    margin:14px;
+    flex: 20rem; 
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.movie_card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 33rem;
+}
+.movie_info{
+    color: #5e5c5c;
+}
+
+.movie_info i{
+    font-size: 20px;
+}
+.card-title{
+    width: 80%;
+    height: 4rem;
+}
+.play_button{
+    background-color: #ff3d49;
+       position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    right: 20px;
+    bottom: 111px;
+    font-size: 27px;
+    padding-left: 21px;
+    padding-top: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.credits{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #8e24aa;
+    font-size: 18px;
+}
+.credits .card-body{
+    padding: 0;
+}
+.credits p{
+    padding-top: 15px;
+    padding-left: 18px;
+}
+.credits .card-body i{
+    color: #8e24aa;
+}  */
+* {
+    -webkit-transition: 300ms;
+    transition: 300ms;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  h1, h2, h3, h4, h5, p {
+    font-weight: 400;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    color: #6ABCEA;
+  }
+  
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .movie-card {
+    /* background: rgb(255, 0, 0); */
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 315px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .movie-header {
+    padding: 0;
+    margin: 0;
+    height: 367px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .header-icon-container {
+    position: relative;
+  }
+  
+  .header-icon {
+    width: 100%;
+    height: 367px;
+    line-height: 367px;
+    /* text-align: center; */
+    vertical-align: middle;
+    margin: 0 auto;
+    color: blue;
+    font-size: 54px;
+    text-shadow: 0px 0px 20px #6abcea, 0px 5px 20px #6ABCEA;
+    opacity: .85;
+  }
+  
+  .header-icon:hover {
+    background: rgba(0, 0, 0, 0.15);
+    font-size: 74px;
+    text-shadow: 0px 0px 20px #6abcea, 0px 5px 30px #6ABCEA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 1;
+  }
+  
+  .movie-card:hover {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  .card-img-top{
+    border-radius: 10px;
+  }
+  .movie-content {
+    padding: 18px 18px 24px 18px;
+    margin: 0px;
+    color: black;
+  }
+  
+  .movie-content-header, .movie-info {
+    display: table;
+    width: 100%;
+    color: black;
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    margin: 10rem;
+    color: red;
+    display: table-cell;
+  }
+  
+  
+  .movie-info {
+    margin-top: 1em;
+  }
+  
+  .info-section {
+    display: table-cell;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .info-section label {
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: .5em;
+    font-size: 9px;
+  }
+  
+  .info-section span {
+    font-weight: 700;
+    font-size: 11px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .movie-card {
+      width: 95%;
+      max-width: 95%;
+      margin: 1em;
+      display: block;
+    }
+  
+    .container {
+      padding: 0;
+      margin: 0;
+    }
+  }
