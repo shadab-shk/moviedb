@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://shadab-shk.github.io/moviedb/",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --base /moviedb/",
     "build": "vite build --outDir ./docs --base /moviedb/",
     "preview": "vite preview --outDir ./docs --base /moviedb/"
   },

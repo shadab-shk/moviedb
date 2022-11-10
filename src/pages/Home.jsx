@@ -35,23 +35,25 @@ const Home = () => {
                     alt={`${movie.original_title}`}
                   />
                 </div>
-                <div className="posterImage_overLay">
-                  <Carousel.Caption>
-                    <h3 className="posterImage_title">
-                      {movie ? movie.original_title : ""}
-                    </h3>
-                    <div className="posterImage_runtime">
-                      <span>{movie ? movie.release_date : ""}</span>
-                      <br />
-                      <span style={{ gap: "10px" }}>
-                        {movie ? movie.vote_average : ""}
-                        <i className="fa-sharp fa-solid fa-star"></i>
-                      </span>
-                    </div>
-                    <p className="posterImage_description">
-                      {movie ? movie.overview : ""}
-                    </p>
-                  </Carousel.Caption>
+                <div className="container">
+                  <div className="posterImage_overLay">
+                    <Carousel.Caption>
+                      <h3 className="posterImage_title">
+                        {movie ? movie.original_title : ""}
+                      </h3>
+                      <div className="posterImage_runtime">
+                        <span>{movie ? movie.release_date : ""}</span>
+                        <br />
+                        <span style={{ gap: "10px" }}>
+                          {movie ? movie.vote_average : ""}
+                          <i className="fa-sharp fa-solid fa-star"></i>
+                        </span>
+                      </div>
+                      <p className="posterImage_description">
+                        {movie ? movie.overview : ""}
+                      </p>
+                    </Carousel.Caption>
+                  </div>
                 </div>
               </Link>
             </Carousel.Item>

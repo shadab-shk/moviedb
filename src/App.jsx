@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import MovieList from "./components/MovieList";
 import MovieDetail from "./pages/MovieDetail";
 import Search from "./pages/Search";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="movie/:id" index element={<MovieDetail />}></Route>
           <Route path="movies/:type" index element={<MovieList />}></Route>
           <Route path="/search/movie" index element={<Search />}></Route>
+          <Route path="/about" index element={<About />}></Route>
           <Route path="/*" index element={<h1>Error Page</h1>}></Route>
         </Routes>
       </HashRouter>
